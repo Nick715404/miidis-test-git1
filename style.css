@@ -1,0 +1,51 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 30px;
+  background-color: #4794c4;
+  color: #fff;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  color: #fff;
+}
+
+a:hover {
+  color: #313131;
+}
+
+main {
+  height: 80dvh;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 40px;
+
+
+}
+
+footer a {
+  color: #080808;
+}
+
+body, html {
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-size: 22px;
+}
+
+.container {
+  max-width: 1600px;
+  width: 95%;
+  margin: 0 auto;
+}
